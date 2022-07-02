@@ -1,0 +1,45 @@
+.header {
+    padding: 10px 15px;
+    background-color:#014E56;
+
+    &__nav {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image-1 {
+        margin-left: 400px;
+        width: 160px;
+        height: 40px;
+    }
+
+    &__list {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        margin-right: 5px;
+    }
+
+    &__link {
+        font-family:"Livvic";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        margin-left: 70px;
+        text-decoration: none;
+        color: aliceblue;
+    }
+    &__link-1 {
+        padding: 8px 19px;
+        border: 2px solid white;
+        border-radius: 160px;
+        margin-left: 640px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+
+}

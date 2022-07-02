@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width:1220px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width:1040px) {
+    .container {
+        max-width: 920px;
+    }
+}
+
+@media screen and (max-width:940px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width:784px) {
+    .container {
+        max-width: 620px;
+    }
+}
+
+@media screen and (max-width:645px) {
+    .container {
+        max-width: 100%;
+    }
+}

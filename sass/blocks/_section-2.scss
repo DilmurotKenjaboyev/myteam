@@ -1,0 +1,123 @@
+.section-2 {
+
+    height: 1100px;
+    background-color: #004047;
+
+    &__box {
+        text-align: center;
+        background-color:#004047;
+        margin: 0 auto;
+        width: 1110px;
+        height: 895px;
+
+    }
+
+    &__title {
+        color: #FFFFFF;
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+
+    &__bigbox {
+        margin-top: 50px;
+        padding-left: 90px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__minibox1 {
+        padding-top: 20px;
+        width: 300px;
+        height: 215px;
+        background-color:#012F34;
+    }
+
+    &__minibox2 {
+        margin-left: 15px;
+        padding-top: 20px;
+        width: 300px;
+        height: 215px;
+        background-color:#012F34;
+
+    }
+
+    &__minibox3 {
+        margin-left: 15px;
+        padding-top: 20px;
+        width: 300px;
+        height: 215px;
+        background-color:#012F34;
+
+    }
+
+    &__minibox4 {
+        margin-top: 50px;
+        padding-top: 20px;
+        width: 300px;
+        height: 234px;
+        background-color:#012F34;
+
+
+    }
+
+    &__minibox5 {
+        margin-top: 50px;
+        padding-top: 20px;
+        margin-left: 15px;
+        width: 300px;
+        height: 234px;
+        background-color:#012F34;
+
+    }
+
+    &__minibox6 {
+        padding-top: 17px;
+        margin-top: 50px;
+        margin-left: 15px;
+        width: 300px;
+        height: 234px;
+        background-color:#012F34;
+
+    }
+
+    &__title-1 {
+        padding-top: 10px;
+        color:#79C8C7;
+        font-family: "Livvic";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    &__description {
+        color: #FFFFFF;
+        font-family: "Livvic";
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    &__image-logo {
+        padding-top: 20px;
+ 
+    }
+
+
+    &__logo-4 {
+        padding-top: 20px;
+    }
+
+
+    &__logo {
+        padding-top: 13px;
+    }
+
+    &__finish {
+        margin-top: 60px;
+        margin-left: 1050px;
+    }
+
+
+}

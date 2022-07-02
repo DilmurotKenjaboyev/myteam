@@ -1,0 +1,140 @@
+.section3 {
+    height: 745px;
+    background: #004047;
+    background-image: url("../../img/secton3/Group\ 8\ Copy.svg");
+    background-repeat: no-repeat;
+
+    &__box {
+        width: 1440px;
+        height: 725px;
+        padding-top: 140px;
+        background-image: url("../../img/secton3/Group\ 8.svg");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+    }
+
+    &__boxx {
+        width: 1110px;
+        margin-left: 165px;
+    }
+
+    &__title {
+        width: 932px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-left: 104px;
+    }
+
+    &__b {
+        color: #79C8C7;
+    }
+
+    &__list {
+        margin-top: 56px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__item {
+        width: 360px;
+        height: 313px;
+        background-image: url("../../img/secton3/qoshtirnoq.png");
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+
+    &__text {
+        margin-top: 36px;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__title3 {
+        margin-top: 24px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #79C8C7;
+    }
+
+    &__italic {
+        margin-left: 90px;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__italic2 {
+        margin-left: 125px;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__italic3 {
+        font-style: italic;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    &__img1 {
+        margin-top: 32px;
+        margin-left: 144px;
+    }
+
+}
+
+@media screen and (max-width:645px) {
+    .section3 {
+        height: 1410px;
+    }
+
+    .section3__box {
+        width: 100%;
+        height: 1410px;
+    }
+
+    .section3__boxx{
+        height: 1106px;
+        margin: 0 auto;
+    }
+
+    .section3__title {
+        position: relative;
+        width: 327px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        text-align: center;
+        right: 40px;
+    }
+
+    .section3__list{
+        margin-top: 58px;
+        flex-wrap: wrap;
+        width: 327px;
+        height: 930px;
+        margin-left: 60px;
+    }
+
+    .section3__item{
+        width: 327px;
+        height: 278px;
+        margin-bottom: 58px;
+    }
+
+
+}

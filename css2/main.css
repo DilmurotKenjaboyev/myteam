@@ -1,0 +1,384 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 10px 15px;
+  background-color: #014E56;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__image-1 {
+  margin-left: 400px;
+  width: 160px;
+  height: 40px;
+}
+
+.header__list {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__item {
+  margin-right: 5px;
+}
+
+.header__link {
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 70px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.header__link-1 {
+  padding: 8px 19px;
+  border: 2px solid white;
+  border-radius: 160px;
+  margin-left: 640px;
+  text-decoration: none;
+  color: white;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 517px;
+  background-color: #014E56;
+}
+
+.section__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__title {
+  margin-left: 93px;
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 100px;
+  color: #FFFFFF;
+}
+
+.section__description {
+  margin-top: 170px;
+  margin-left: 159px;
+  color: #FFFFFF;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section__img-3 {
+  margin-top: 343px;
+  width: 110px;
+  height: 170px;
+}
+
+.section-2 {
+  height: 1100px;
+  background-color: #004047;
+}
+
+.section-2__box {
+  text-align: center;
+  background-color: #004047;
+  margin: 0 auto;
+  width: 1110px;
+  height: 895px;
+}
+
+.section-2__title {
+  color: #FFFFFF;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.section-2__bigbox {
+  margin-top: 50px;
+  padding-left: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section-2__minibox1 {
+  padding-top: 20px;
+  width: 300px;
+  height: 215px;
+  background-color: #012F34;
+}
+
+.section-2__minibox2 {
+  margin-left: 15px;
+  padding-top: 20px;
+  width: 300px;
+  height: 215px;
+  background-color: #012F34;
+}
+
+.section-2__minibox3 {
+  margin-left: 15px;
+  padding-top: 20px;
+  width: 300px;
+  height: 215px;
+  background-color: #012F34;
+}
+
+.section-2__minibox4 {
+  margin-top: 50px;
+  padding-top: 20px;
+  width: 300px;
+  height: 234px;
+  background-color: #012F34;
+}
+
+.section-2__minibox5 {
+  margin-top: 50px;
+  padding-top: 20px;
+  margin-left: 15px;
+  width: 300px;
+  height: 234px;
+  background-color: #012F34;
+}
+
+.section-2__minibox6 {
+  padding-top: 17px;
+  margin-top: 50px;
+  margin-left: 15px;
+  width: 300px;
+  height: 234px;
+  background-color: #012F34;
+}
+
+.section-2__title-1 {
+  padding-top: 10px;
+  color: #79C8C7;
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.section-2__description {
+  color: #FFFFFF;
+  font-family: "Livvic";
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.section-2__image-logo {
+  padding-top: 20px;
+}
+
+.section-2__logo-4 {
+  padding-top: 20px;
+}
+
+.section-2__logo {
+  padding-top: 13px;
+}
+
+.section-2__finish {
+  margin-top: 60px;
+  margin-left: 1050px;
+}
+
+.section-3 {
+  background-color: #012F34;
+  height: 467px;
+}
+
+.section-3__box {
+  text-align: center;
+}
+
+.section-3__image-room {
+  padding-top: 59px;
+}
+
+.section-3__title {
+  color: #FFFFFF;
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.section-3__image-title1 {
+  margin-right: 15px;
+}
+
+.section-3__image-title2 {
+  margin-left: 15px;
+}
+
+.section-3__image-title3 {
+  margin-left: 25px;
+}
+
+.section-3__image-title4 {
+  margin-left: 25px;
+}
+
+.section-3__image-title5 {
+  margin-left: 45px;
+}
+
+.section-4 {
+  height: 290px;
+  background-color: #F67E7E;
+}
+
+.section-4__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section-4__title {
+  margin-left: 120px;
+  margin-top: 96px;
+  color: #012F34;
+  font-family: "Livvic";
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.section-4__link {
+  margin-top: 98px;
+  margin-left: 300px;
+  padding-top: 5px;
+  padding-left: 30px;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  width: 153px;
+  height: 48px;
+  border: 3px solid #012F34;
+  border-radius: 160px;
+  text-decoration: none;
+  color: #012F34;
+}
+
+.footer {
+  height: 196px;
+  background-color: #002529;
+}
+
+.footer__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__link {
+  padding-top: 15px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.footer__description {
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.footer__box-1 {
+  margin-left: 30px;
+  margin-top: 50px;
+  width: 196px;
+  height: 113px;
+}
+
+.footer__box-2 {
+  margin-top: 50px;
+  margin-left: 290px;
+  width: 196px;
+  height: 113px;
+}
+
+.footer__box-3 {
+  margin-top: 50px;
+  margin-left: 400px;
+  width: 196px;
+  height: 113px;
+}
+
+.footer__image-link2 {
+  margin-left: 15px;
+}
+
+.footer__image-link3 {
+  margin-left: 15px;
+}
+
+.footer__description4 {
+  color: #FFFFFF;
+  margin-left: 1000px;
+  margin-bottom: 50px;
+  opacity: 0.6;
+  font-family: "Livvic";
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.main {
+  width: 100vw;
+  background-color: #014E56;
+}
+/*# sourceMappingURL=main.css.map */

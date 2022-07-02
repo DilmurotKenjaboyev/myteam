@@ -1,0 +1,111 @@
+.section {
+    width: 100%;
+    height: 689px;
+    background-color: rgba(1, 78, 86, 1);
+    background-image: url("../../img/section/Group\ 8.png");
+    background-repeat: no-repeat;
+
+    &__box {
+        padding-top: 124px;
+        width: 1112px;
+        height: 688px;
+        background-image: url("../../img/section/Group\ 7.png");
+        background-repeat: no-repeat;
+        background-position: right bottom;
+        display: flex;
+    }
+
+    &__boxw {
+        width: 540px;
+        height: 410px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 100px;
+        color: #FFFFFF;
+    }
+
+    &___box2 {
+        height: 200px;
+        display: flex;
+    }
+
+    &__title2 {
+        margin-top: 16px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 48px;
+        color: #F67E7E;
+    }
+
+    &__list {
+        list-style-type: none;
+        margin-top: 32px;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title3 {
+        margin-left: 23px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    &__boxx {
+        width: 557px;
+        height: 420px;
+    }
+
+    &__input {
+        width: 540px;
+        height: 42px;
+        margin-bottom: 24px;
+        background-color: #014E56;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #FFFFFF;
+        outline: none;
+    }
+
+    &__input2 {
+        width: 540px;
+        height: 84px;
+        background-color: #014E56;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #FFFFFF;
+        outline: none;
+    }
+
+    &__hr{
+        background: #FFFFFF;
+        border: 1px solid ;
+        border-color: #FFFFFF;
+    }
+
+    &__button {
+        margin-top: 24px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        color: #004047;
+        width: 123px;
+        height: 48px;
+        padding: 9px, 32px, 11px, 32px;
+        background: #FFFFFF;
+        border: 2px solid #FFFFFF;
+        border-radius: 24px;
+    }
+
+
+
+}

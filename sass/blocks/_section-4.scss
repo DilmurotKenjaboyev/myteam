@@ -1,0 +1,38 @@
+.section-4 {
+    height: 290px;
+    background-color: #F67E7E;
+
+    &__box {
+        display: flex;
+        align-items: center;
+    }
+
+
+    &__title {
+        margin-left: 120px;
+        margin-top: 96px;
+        color: #012F34;
+        font-family: "Livvic";
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+    }
+
+    &__link {
+        margin-top: 98px;
+        margin-left: 300px;
+        padding-top: 5px;
+        padding-left: 30px;
+        font-family: "Livvic";
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 28px;
+        width: 153px;
+        height: 48px;
+        border: 3px solid #012F34;
+        border-radius: 160px;
+        text-decoration: none;
+        color: #012F34;
+    }
+
+}

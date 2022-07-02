@@ -1,0 +1,44 @@
+.section-3 {
+    background-color: #012F34;
+    height: 467px;
+
+    &__box {
+        text-align: center;
+    }
+
+
+    &__image-room {
+        padding-top: 59px;
+    }
+
+
+&__title {
+    color: #FFFFFF;
+    font-family: "Livvic";
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+&__image-title1 {
+    margin-right: 15px;
+
+}
+&__image-title2 {
+    margin-left: 15px;
+
+}
+&__image-title3 {
+    margin-left: 25px;
+
+}
+&__image-title4 {
+    margin-left: 25px;
+
+}
+&__image-title5 {
+    margin-left: 45px;
+
+}
+
+}
